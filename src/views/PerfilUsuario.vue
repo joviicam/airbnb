@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        PERRFIL USUARIO
+        PERFIL USUARIO
     </div>
 </template>
 <script>

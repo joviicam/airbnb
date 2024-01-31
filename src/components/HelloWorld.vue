@@ -12,7 +12,7 @@
             <b-navbar-nav class="ml-auto">
               <b-nav-item href="#">Inicio</b-nav-item>
               <b-nav-item href="#">Acerca de</b-nav-item>
-              <b-nav-item :to="{ name: 'perfilUsuario' }">Perrfil</b-nav-item>
+              <b-nav-item :to="{ name: 'showPerfil' }">Perfil</b-nav-item>
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
@@ -20,7 +20,7 @@
     </b-row>
 
     <b-row>
-      <b-col sm="3" md="4" lg="4" >
+      <b-col sm="3" md="4" lg="3" >
         <b-sidebar
           z-index="1"
           id="sidebar"
@@ -35,12 +35,11 @@
 
             <b-nav-item :to="{name:'registroEspacio'}">Registro de espacios</b-nav-item>
 
-            <b-nav-item :to="{ name: 'showPerfil' }">PRerfil
+            <b-nav-item :to="{ name: 'showPerfil' }">Perfil
             </b-nav-item>
           </b-nav>
         </b-sidebar>
       </b-col>
-
       <b-col class="content">
         <router-view/>
       </b-col>
@@ -68,6 +67,6 @@ export default {
 
 <style>
 .content {
-  margin-left: -150px;
+  margin-left: 10px;
 }
 </style>
