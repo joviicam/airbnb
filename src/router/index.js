@@ -26,6 +26,11 @@ const routes = [
                 path: '/showPerfil',
                 name: 'showPerfil',
                 component: () => import('../views/PerfilUsuario.vue')
+            },
+            {
+                path: '/registroUsuario',
+                name: 'registroUsuario',
+                component: () => import('../views/RegistrarPersona.vue')
             }
             
         ]

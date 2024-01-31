@@ -37,6 +37,8 @@
 
             <b-nav-item :to="{ name: 'showPerfil' }">Perfil
             </b-nav-item>
+            <b-nav-item :to="{name:'registroUsuario'}">Registro de personas</b-nav-item>
+
           </b-nav>
         </b-sidebar>
       </b-col>
